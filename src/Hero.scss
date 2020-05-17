@@ -1,0 +1,45 @@
+.Hero {
+    // display: flex;
+    // align-items: center;
+    // margin-bottom: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    // position: relative;
+
+    &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+    }
+
+    &__text {
+        padding: 2rem;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .Hero {
+        &:after {
+            background-color: rgba(#000000, 0.8);
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .Hero {
+        min-height: 500px;
+
+        &:after {
+            background-color: rgba(#000000, 0.5);
+        }
+
+        &__text {
+            background-color: rgba(#000000, 0.75);
+        }
+    }
+}

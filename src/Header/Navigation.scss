@@ -1,0 +1,16 @@
+nav {
+    a {
+        display: block;
+        color: #333333;
+    }
+
+    .current {
+        color: #c63f3e;
+    }
+}
+
+header {
+    a:hover {
+        color: rgb(138, 44, 43) !important;
+    }
+}

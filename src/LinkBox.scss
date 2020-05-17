@@ -1,0 +1,29 @@
+.LinkBox {
+    display: block;
+    width: 100%;
+
+    &__content {
+        transition: background-color 0.15s ease-in;
+        border-radius: 0.5rem;
+
+        &:hover {
+            background-color: darken(#e0e0e0, 10);
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .LinkBox {
+        position: relative;
+        padding-top: 100%;
+
+        &__content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+
+        }
+    }
+}
