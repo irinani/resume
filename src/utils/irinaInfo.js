@@ -73,18 +73,6 @@ const skills = [
 ];
 
 const contactInfo = [
-	// {
-	// 	text: "040 503 1923",
-	// 	icon: <PhoneIcon />,
-	// },
-	// {
-	// 	text: "irinanissi@gmail.com",
-	// 	icon: <EmailIcon />,
-	// },
-	// {
-	// 	text: "Rantakartano 4, 91800 Tyrnävä",
-	// 	icon: <LocationOnIcon />,
-	// },
 	{
 		text: "moi@irinanissi.fi",
 		href: "mailto:moi@irinanissi.fi",

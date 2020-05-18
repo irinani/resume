@@ -35,6 +35,7 @@ const linkBoxes = [
 const heroText = [
 	"Nice to meet you! My name is Irina and I'm a front-end developer based in Northern Finland.",
 	"My strength is in web development but I'm eager to learn more about other stuff as well!",
+	"This website is still being developed so I apologize for any bugs there might be."
 ];
 
 export default function Home() {
@@ -81,6 +82,7 @@ export default function Home() {
 						mt={5}
 					>
 						<Button
+							className="link-hover"
 							variant="outlined"
 							color="inherit"
 							href="https://www.linkedin.com/in/irinanissi/"
@@ -89,6 +91,7 @@ export default function Home() {
 							LinkedIn
 						</Button>
 						<Button
+							className="link-hover"
 							variant="outlined"
 							color="inherit"
 							href="mailto:moi@irinanissi.fi"

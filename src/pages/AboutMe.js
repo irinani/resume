@@ -2,7 +2,7 @@ import React from "react";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
-import Divider from "@material-ui/core/Divider";
+// import Divider from "@material-ui/core/Divider";
 import Box from "@material-ui/core/Box";
 import Title from "../Title";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";

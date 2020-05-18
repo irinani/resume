@@ -23,7 +23,11 @@ export default function LinkBox(props) {
 						flexDirection="column"
 						justifyContent="center"
 					>
-						{Icon && <Icon style={{ fontSize: "3rem", margin: "0 auto" }} />}
+						{Icon && (
+							<Box component="span" mx="auto" mb={1} fontSize="3rem">
+								<Icon fontSize="inherit" />
+							</Box>
+						)}
 						{title && (
 							<Typography variant="h5" component="h2">
 								{title}

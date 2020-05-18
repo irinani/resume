@@ -34,14 +34,6 @@ export default function Hero(props) {
 								</Typography>
 							))}
 						</div>
-						{/* <Button
-							variant="outlined"
-							color="secondary"
-							href="/about-me"
-							endIcon={<NavigateNextIcon />}
-						>
-							More about me
-						</Button> */}
 					</Grid>
 				</Grid>
 			</Container>

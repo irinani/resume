@@ -20,7 +20,8 @@ export default function App() {
 	return (
 		<ThemeProvider theme={theme}>
 			<CssBaseline />
-			<Router basename="/demo">
+			{/* <Router basename="/demo"> */}
+			<Router>
 				<ScrollToTop>
 					<Header />
 					<main>
